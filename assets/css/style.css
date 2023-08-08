@@ -1,0 +1,182 @@
+/* استيراد الخط العربي */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+/* Fonts */
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", 'Noto Naskh Arabic', serif;
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Work Sans", sans-serif, 'Poppins', sans-serif;
+   
+  }
+  
+  /* Colors */
+  
+  
+  :root {
+    --color-default: #1e95d4;
+    --color-primary: #0f73eb;
+    --color-secondary: #52565e;
+  }
+  
+  /* Smooth scroll behavior */
+  
+  
+  :root {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: var(--font-default);
+    color: var(--color-default);
+    overflow-x: hidden;
+  
+}
+
+section {
+    padding: 80px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f5f6f7;
+  }
+  
+  .section-header {
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  
+  .section-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    color: #2e3135;
+  }
+  
+  .section-header h2:before,
+  .section-header h2:after {
+    content: "";
+    width: 50px;
+   
+    height: 2px;
+    background: var(--color-primary);
+    display: inline-block;
+  }
+  
+  .section-header h2:before {
+    margin: 0 15px 10px 0; 
+  }
+  
+  .section-header h2:after {
+    margin: 0 0 10px 15px;
+  }
+  
+  .section-header p {
+    margin: 0 auto 0 auto;
+  }
+  
+  @media (min-width: 1199px) {
+    .section-header p {
+      max-width: 60%;
+    }
+  }
+  
+
+  .aboutme .my-story {
+    padding: 32px;
+    background-color: #f5f6f7;
+    padding-left: 24px;
+    position: relative;
+    right: 171px;
+    }
+
+    .aboutme p {
+
+    margin-bottom: -3re;
+    font-size: 52px;
+    font-family: fantasy;
+    position: relative;
+    right: 344px;
+}
+  
+h2 {
+  margin-top: 0;
+  font-size: 28px;
+  color: #007bff;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.calendar {
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.fertile-day {
+  background-color: #ffcc29;
+}
+
+.ovulation-day {
+  background-color: #ff6f61;
+  color: #ffffff;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.start-over-btn {
+  display: none;
+  background-color: #f44336;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.error {
+  color: #f44336;
+  font-weight: bold;
+}
